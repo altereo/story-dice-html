@@ -3,7 +3,7 @@ var mainButton;
 
 const lists = {
   genre: ['Metroidvania', 'Rogue-lite', 'Management', 'Rougelike', 'Survival', 'Simulation', 'Clicker', 'Visual Novel', 'Sandbox', 'Real-time Strategy', 'First-person Shooter', 'Action-Adventure', 'Party', 'Puzzle', 'Platformer', 'Shooter', 'Beat\'em up', 'Stealth', 'Rhythm', 'Horror'],
-  type: ['Multiplayer', 'Singleplayer'],
+  type: ['Multiplayer', 'Singleplayer', 'Co-op', 'Two-player', 'Three-player', 'Four-player', 'Couch-Multiplayer', 'Split-Screen Multiplayer'],
   mechanic: ['Exploration', 'Resource-Management', 'Resource-Generation', 'Automation', 'Branching Story', 'Hacking'],
   plot: ['Hero\'s Journey', 'Rescue', 'Recovery', 'Escape', 'Survival', 'Ancients', 'Horror']
 }
