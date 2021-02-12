@@ -2,7 +2,7 @@ var hasRolledOnce = false;
 var mainButton;
 
 const lists = {
-  genre: ['Metroidvania', 'Roguelite', 'Management', 'Rougelike', 'Survival', 'Simulation', 'Clicker', 'Visual Novel', 'Sandbox', 'Real-time Strategy', 'First-person Shooter', 'Action-Adventure', 'Party', 'Puzzle', 'Platformer', 'Shooter', 'Beat\'em up', 'Stealth', 'Rhythm', 'Horror'],
+  genre: ['Metroidvania', 'Rogue-lite', 'Management', 'Rougelike', 'Survival', 'Simulation', 'Clicker', 'Visual Novel', 'Sandbox', 'Real-time Strategy', 'First-person Shooter', 'Action-Adventure', 'Party', 'Puzzle', 'Platformer', 'Shooter', 'Beat\'em up', 'Stealth', 'Rhythm', 'Horror'],
   type: ['Multiplayer', 'Singleplayer'],
   mechanic: ['Exploration', 'Resource-Management', 'Resource-Generation', 'Automation', 'Branching Story', 'Hacking'],
   plot: ['Hero\'s Journey', 'Rescue', 'Recovery', 'Escape', 'Survival', 'Ancients', 'Horror']
