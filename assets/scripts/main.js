@@ -14,7 +14,7 @@ const lists = {
     genre: ['Romance', 'Sci-fi', 'Horror', 'Thriller', 'Comedy', 'Mystery', 'Fantasy', 'Realistic Fiction', 'Satire', 'Poem', 'Epic', 'Fable', 'Fairy Tale'],
     plotType: ['Hero\'s Journey', 'Betrayal', 'Coming of Age', 'Murder Mystery', 'Political Struggle', 'Escape', 'Spy Story'],
     settingType: ['Post-Apocalyptic', 'Modernist Dystopia', 'Religious Dystopia', 'Corporate Dystopia', 'Dystopia', 'Future', 'Alien Planet', 'Current Earth', 'Medieval Earth'],
-    length: ['Short-Story', 'Long...', '1000 Words', 'Novella', 'Pamphlet-sized', '2 Sentences.', 'Paragraph', 'As you wish', 'As you like it.']
+    length: ['Short-Story', 'Long...', '1000 Words', '2000 Words', '3000 Words', 'Novella', 'Pamphlet-sized', '2 Sentences.', 'Paragraph', 'As you wish', 'As you like it.']
   }
 }
 
@@ -72,7 +72,7 @@ function switchDiceType(event) {
   document.getElementsByClassName('buttonActive')[0].className = document.getElementsByClassName('buttonActive')[0].className.replace(' buttonActive', '');
   event.target.className += ' buttonActive';
   console.log(event.target.id);
-  if (event.target.id.toString() === 'typeGame') {
+  if (event.target.id.toString() === 'typeGame' && diceType !== 'game') {
     diceType = 'game';
     headings[0].innerText = 'Genre 1';
     headings[1].innerText = 'Genre 2';
@@ -81,7 +81,7 @@ function switchDiceType(event) {
     headings[4].innerText = 'Plot Point 1';
     headings[5].innerText = 'Plot Point 2';
     purgeRolls();
-  } else if (event.target.id.toString() === 'typeStory') {
+  } else if (event.target.id.toString() === 'typeStory' && diceType !== 'story') {
     diceType = 'story';
     headings[0].innerText = 'Genre 1';
     headings[1].innerText = 'Genre 2';
