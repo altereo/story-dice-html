@@ -7,25 +7,31 @@
 </head>
 <body>
   <h1>Here's some story dice...</h1>
-  <div id=rerollbutton class=button>Loading...</div>
+  <div id=buttonRow class=buttonRow>
+    <div id=rerollbutton class=button>Loading...</div>
+    <div id=typeSwitcher class=buttonContainer>
+      <div id=typeGame class='button typeButton buttonActive'>Game</div>
+      <div id=typeStory class='button typeButton'>Story</div>
+    </div>
+  </div>
   <table>
     <tr>
-      <th>
+      <th id=1 class="diceHeader">
         Genre 1
       </th>
-      <th>
+      <th id=2 class="diceHeader">
         Genre 2
       </th>
-      <th>
+      <th id=3 class="diceHeader">
         Type
       </th>
-      <th>
+      <th id=4 class="diceHeader">
         Mechanic
       </th>
-      <th>
+      <th id=5 class="diceHeader">
         Plot Point 1
       </th>
-      <th>
+      <th id=6 class="diceHeader">
         Plot Point 2
       </th>
     </tr>
