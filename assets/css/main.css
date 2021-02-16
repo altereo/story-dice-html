@@ -33,7 +33,7 @@
 }
 
 .buttonActive {
-  background-color: rgba(0, 0, 0, 0.11) !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .typeButton {
@@ -73,7 +73,7 @@ th {
 }
 
 .button:hover {
-  background-color: rgba(0, 0, 0, 0.14);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 h1 {
